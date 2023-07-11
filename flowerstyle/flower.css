@@ -12,6 +12,8 @@ body {
     font-size: 20px;
     font-family: 700;
     padding: 10px 30px;
+    color: #f0ffff;
+
 }
 
 .p {
@@ -60,6 +62,13 @@ body {
 .main {
     background-color: white;
     margin-top: 120px;
+
+    /* align-items: center;
+    background-repeat: no-repeat;
+    background-image: url('../flowerasset/Rectangle 9.png');
+    background-size: 500px;
+    background-position: bottom;
+    border-radius: 8px; */
 }
 
 .s2 {
@@ -139,8 +148,9 @@ body {
 
 }
 
-.service-con{
-    padding: 0 25px 0 25px ;
+.service-con {
+    padding: 0 25px 0 25px;
+}
 
 .icon {
     width: 68px;
@@ -156,6 +166,104 @@ body {
 
 /* section hotdeal styles */
 
-.colored{
-   color: #E55473; 
+.hotdeal {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-top: 100px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+
+.deal-content {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 200px;
+
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+
+.deal-img {
+    width: 300px;
+    height: 420px;
+    padding-right: 220px;
+}
+
+.ink {
+    color: #E55473;
+}
+
+.insta {
+    margin-top: 150px;
+}
+
+.insta-content {
+    width: 399px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    gap: 5px;
+}
+
+.insta-img-cont {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.img-insta {
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+
+
+}
+
+.insta-pic {
+    width: 200px;
+}
+
+/* latest deal section style */
+
+.latest-deals {
+    display: flex;
+    margin-top: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.input {
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url('../flowerasset/Rectangle 9.png');
+    background-size: 850px;
+    background-position: center;
+    padding: 100px 320px 100px 320px;
+    text-align: center;
+
+}
+
+.textbox {
+    border-radius: 0px;
+    background: #FFF;
+    padding: 10px 100px ;
 }
