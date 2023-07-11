@@ -206,6 +206,7 @@ body {
 
 .insta {
     margin-top: 150px;
+    margin-bottom: 80px;
 }
 
 .insta-content {
@@ -246,7 +247,6 @@ body {
 
 .latest-deals {
     display: flex;
-    margin-top: 0;
     margin: 0;
     justify-content: center;
 }
@@ -308,3 +308,19 @@ body {
     font-weight: 400;
     padding-top: 50px;
 }
+
+/*section#customer-flower-arrangement  */
+
+section#customer-flower-arrangement {
+    align-items: center;
+    background-color: #ffd4e8;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 820px;
+    margin: 0% auto;
+    border-radius: 8px;
+    
+  }
+  
+  
