@@ -311,7 +311,7 @@ body {
 
 /*section#customer-flower-arrangement  */
 
-section#customer-flower-arrangement {
+#customer-flower-arrangement {
     align-items: center;
     background-color: #ffd4e8;
     padding: 20px;
