@@ -2,7 +2,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'lato', sans-serif;
- 
+
 }
 
 .buttons {
@@ -16,10 +16,10 @@ body {
 
 .p {
     color: #27272799;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 200;
-    width: 399px;
-
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 
@@ -30,27 +30,99 @@ body {
     align-items: center;
     background-color: #E554731A;
     background-image: url('../Flower Asset/pngwing 10.png');
-    background-size: 500px;
+    background-size: 450px;
     background-repeat: no-repeat;
-    background-position: center right 5%;
-   
+    background-position: bottom right 15%;
+
 
 
 }
 
 .s1 {
-    margin: 100px 150px;
+    margin: 110px 150px;
 
 }
 
 .s1-title {
     color: #272727;
-    font-size: 50px;
-    font-weight: 700;
-    width: 399px;
+    font-size: 45px;
+    font-weight: 800;
+    width: 500px;
     margin-bottom: 30px;
+}
+
+#o {
+    width: 399px;
 }
 
 /* Main related style */
 
-/* footer related style */
+.main {
+    background-color: white;
+    margin-top: 120px;
+}
+
+.s2 {
+    width: 399px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.s2-title {
+    font-size: 25px;
+    font-weight: 800;
+    gap: 5px;
+}
+
+/* images and container in main */
+
+.image-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.image-container img {
+    width: 150px;
+    height: 250px;
+}
+
+.image-con {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+
+
+
+.images {
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 300px 300px 0 0;
+    border: opx;
+    padding: 70px 50px 0px 50px;
+}
+
+
+
+
+#img1 {
+    background-color: #A7216226;
+}
+
+#img2 {
+    background-color: #0597A026;
+}
+
+#img3{
+    background-color: #477D1126;
+}
+.underline {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* service section style in main */
