@@ -39,7 +39,7 @@ body {
 }
 
 .s1 {
-    margin: 110px 150px;
+    margin: 110px 250px;
 
 }
 
@@ -66,6 +66,7 @@ body {
     width: 399px;
     text-align: center;
     margin: 0 auto;
+
 }
 
 .s2-title {
@@ -80,6 +81,8 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
+    /* margin: 110px 150px; */
+    margin-bottom: 150px;
 
 }
 
@@ -91,11 +94,7 @@ body {
 .image-con {
     margin: 5px;
     padding: 5px;
-
 }
-
-
-
 
 .images {
     align-items: center;
@@ -106,9 +105,6 @@ body {
     padding: 70px 50px 0px 50px;
 }
 
-
-
-
 #img1 {
     background-color: #A7216226;
 }
@@ -117,12 +113,49 @@ body {
     background-color: #0597A026;
 }
 
-#img3{
+#img3 {
     background-color: #477D1126;
 }
+
 .underline {
     text-decoration: underline;
     font-weight: 700;
 }
 
 /* service section style in main */
+
+.service {
+    display: flex;
+    padding: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    max-width: 725px;
+    max-height: 200px;
+    margin-top: 0;
+
+
+}
+
+.service-con{
+    padding: 0 25px 0 25px ;
+
+.icon {
+    width: 68px;
+    height: 68px;
+}
+
+.serv-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* section hotdeal styles */
+
+.colored{
+   color: #E55473; 
+}
