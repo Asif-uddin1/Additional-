@@ -318,7 +318,7 @@ body {
     margin-bottom: 20px;
     text-align: center;
     width: 820px;
-    /* margin: 0% auto; */
+    gmargin: 0% auto; 
     border-radius: 8px;
     
   }
